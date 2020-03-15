@@ -8,7 +8,7 @@
   <!-- CSRF Token -->
   <meta name="csrf-token" content="{{ csrf_token() }}">
 
-  <title>Argon Dashboard PRO - Premium Bootstrap 4 Admin Template</title>
+  <title>a t a b</title>
   <!-- Favicon -->
   <link rel="icon" href="../../assets/img/brand/favicon.png" type="image/png">
   <!-- Fonts -->
@@ -26,21 +26,21 @@
 </head>
 
 <body>
-  <x-sidebar />
-  <!-- Main content -->
-  <div class="main-content" id="panel">
-    
-    <!-- Header -->
-    <x-header />
-    <!-- Page content -->
-    <div class="card">
+  <div id="app">
+    <x-sidebar />
+    <!-- Main content -->
+    <div class="main-content" id="panel">      
+      <!-- Header -->
+      <x-header />
+      <!-- Page content -->
+      <div class="card">
         <div class="card-content">
-            <main class="py-4">
-                @yield('content')
-            </main>
+          <main class="py-4">
+            @yield('content')
+          </main>
         </div>
-
-      <x-footer />
+        <x-footer />
+      </div>
     </div>
   </div>
   <!-- Argon Scripts -->
